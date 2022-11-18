@@ -6,7 +6,7 @@ import { Button } from "../styles";
 
 function Login({ onLogin }) {
   const [showLogin, setShowLogin] = useState(true);
-
+  console.log('in Login - showLogIn = ', showLogin);
   return (
     <Wrapper>
       <Logo>Reciplease</Logo>
